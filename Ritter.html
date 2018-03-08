@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ritter</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		#nav {
+			background-image: url();
+		}
+		#left-sidebar {
+			background-color: blue;
+		}
+		#center {
+			background-color: yellow;
+		}
+		#right-sidebar {
+			background-color: pink;
+		}
+		#footer {
+			background-color: green;
+		}
+		.post-image {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+		.post {
+			border-bottom: 3px solid cyan;
+			padding-top: 4%;
+			padding-bottom: 10px;
+		}
+		.account-name {
+			padding-bottom:2px;
+		}
+		p {
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.comment-response {
+			border: 2px solid #ffbce5;
+			border-radius: 25px;
+			padding-left: 5%;
+			padding-right: 5px;
+			padding-bottom: 3px;
+			padding-top: 3px;
+			margin-left: 5%;
+			margin-right: 0px;
+			margin-bottom: 5px;
+			margin-top: 3px;
+			font-size: 14px;
+		}
+		.time {
+			color: grey;
+			font-size: 10px;
+		}
+		.image {
+			padding-top: 6px;
+			height: 185px;
+			padding-bottom: 3px;
+		}
+		.image2 {
+			padding-top: 6px;
+			height: 165px;
+			padding-bottom: 3px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div id="nav" class="row">
+			<p>This is my navbar</p>
+		</div>
+		<div id="main-content" class="row">
+			<div id="left-sidebar" class="col-3">
+				<p>This is my left-sidebar</p>
+			</div>
+			<div id="center" class="col-6">
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Mar 7</p>
+						<p>@MikeFromTheG Mike Mike Mike...Mike what day is it Mike? Ha ha! @GeicoLeslie guess what today is?</p>
+						<p class="time">9:25 am</p>
+						<div class="col-11 comment-response ">
+							<p class="account-name">Leslie @GeicoLeslie・Mar 7</p>
+							<p>It's Hump Day.</p>
+							<p class="time">9:45 am</p>
+						</div>
+						<div class="col-11 comment-response ">
+							<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Mar 7</p>
+							<p>Whoot Whoot! 🙌 </p>
+							<p class="time">9:46 am</p>
+						</div>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Mar 7</p>
+						<p>@JulieFromGeico Hey...guess what day it is! Ah come on, I know you see this.</p>
+						<p class="time">9:12 am</p>
+					</div>	
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Mar 7</p>
+						<p>Guess what day it is! Huh... 😜</p>
+						<a href="https://pixabay.com/en/photos/camel/"><p class= "hashtag">#anybody</p></a>
+						<p class="time">9:10 am</p>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Mar 7</p>
+						<p>Uh-oh! Guess what day it is! </p>
+						<p class="time">9:00 am</p>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Mar 3</p>
+						<p>It was so nice for the whole fam to be together again. 🐪</p>
+						<a href="https://pixabay.com/en/photos/camel/"><p class= "hashtag">#familyreunion #blessed </p></a>
+						<img src= "http://animals.sandiegozoo.org/sites/default/files/2016-09/animals_hero_camels.jpg" class="image">
+						<p class="time">6:42 pm</p>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Feb 26</p>
+						<p>What do you call a crying Camel?  A humpback wail! Have a great Monday guys! 😂😂😂</p>
+						<a href="https://pixabay.com/en/photos/camel/"><p class= "hashtag">#cameljokes #ohsocorny</p></a>
+						<p class="time">9:02 am</p>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Feb 21</p>
+						<p>@MikeFromTheG ik you know what day it is my guy. 😏</p>
+						<p class="time">9:15 am</p>
+						<div class="col-11 comment-response ">
+							<p class="account-name">TheMikester @MikeFromTheG・Feb 21</p>
+							<p>Wednesday?</p>
+							<p class="time">9:26 am</p>
+						</div>
+						<div class="col-11 comment-response ">
+							<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Feb 21</p>
+							<p>HUMP DAY!</p>
+							<p class="time">9:26 am</p>
+						</div>						
+						<div class="col-11 comment-response ">
+							<p class="account-name">TheMikester @MikeFromTheG・Feb 21</p>
+							<p>@GeicoLeslie is this dude serious?</p>
+							<p class="time">9:32 am</p> 
+						</div>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Feb 5</p>
+						<p>Haha caught me off gaurd. 😳😅😅</p>
+						<a href="https://pixabay.com/en/photos/camel/"><p class= "hashtag">#firstday #onthejob</p></a>
+						<img src="http://i.vimeocdn.com/video/458378011_1280x720.jpg" class="image">
+						<p class="time">11:12 am</p>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
+					</div>
+					<div class="col-10 text-side">
+						<p class="account-name">Humphrey ☑️ @Humphrey_TheCamel・Jan 28</p>
+						<p> Hanging with the broskies. 💙 @TheReal_SandMoose @Joe</p>
+						<img src= "https://www.bigoanddukes.com/boad/files/boadPodcasts/IMAGEFILENAME/000000000721/Camels_in_car1.jpg" class="image2">
+						<a href="https://pixabay.com/en/photos/camel/"><p class= "hashtag">#newwhip #welit #lovinlife</p></a>
+						<p class="time">4:09 pm</p>
+					</div>
+				</div>
+				<div class="post row">
+					loading
+				</div>
+			</div>
+			<div id="right-sidebar" class="col-3">
+				<p>This is my right-sidebar</p>
+			</div>
+		</div>
+
+		<div id="footer" class="row">
+			<p>This is my footer</p>
+		</div>
+	</div>
+
+</body>
+</html>
