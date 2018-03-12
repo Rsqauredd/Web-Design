@@ -72,18 +72,45 @@
 			height: 165px;
 			padding-bottom: 3px;
 		}
+		#navbar-ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		.navbar-words {
+			display: inline-block;
+			padding-right: 40px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 30px;
+		}
+		#navbar-home {
+			padding-left: 40px;
+		}
+		.cover-pic {
+			height: 195px;
+			
+		}
+
 	</style>
 </head>
 <body>
 	<div class="container-fluid">
 		<div id="nav" class="row">
-			<p>This is my navbar</p>
+			<ul id="navbar-ul">
+				<li id="navbar-home" class="navbar-words"><a href="https://rsqauredd.github.io/Web-Design/Ritter.html">Home</a></li>
+				<li class="navbar-words"><a href="https://google.com">Followers</a></li>
+				<li class="navbar-words"><a href="https://google.com">Notifications</a></li>
+			</ul>
+		</div>
+		<div id="cover" class="row">
+			<img class="cover-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9oP6vH2ZPHaiPphm2IX9IJXDjURhz31oOuaDwMolnyJ03bLo";
 		</div>
 		<div id="main-content" class="row">
 			<div id="left-sidebar" class="col-3">
 				<p>This is my left-sidebar</p>
 			</div>
-			<div id="center" class="col-6">
+			<div id="center" class="col-7">
 				<div class="post row">
 					<div class="col-2 img-side">
 						<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg">
@@ -211,7 +238,7 @@
 					loading
 				</div>
 			</div>
-			<div id="right-sidebar" class="col-3">
+			<div id="right-sidebar" class="col-2">
 				<p>This is my right-sidebar</p>
 			</div>
 		</div>
